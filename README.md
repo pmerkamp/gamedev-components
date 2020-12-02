@@ -5,6 +5,7 @@ All code should be reasonably clean so treading through it isn't a sad experienc
 
 ### currently included projects:
 - **dialogue**: a Unity dialogue demo using the Ink scripting language. portrait and background assets created using artbreeder.com, ui created by me
+- **dungeon-gen**: an implementation of a parameterized dungeon generator - essentially a linked list where each node has a north, east, south, and west linkage, rather than a left and right linkage. the root room sprouts four branches which can intersect. game is 2D but dungeon system could easily be adapted to 3D. all assets created by me.
 
 ### planned projects:
 - **action**: a fun live combat system
